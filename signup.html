@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Login</title>
+    <link rel="stylesheet" href="signup.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1> WellNest </h1>
+    <p class="tagline">Anytime, Anywhere—Your Health Records at Your Fingertips.</p>
+    <div class="login-container">
+        <h2 style="letter-spacing: 4px">SIGN UP</h2>
+        <form action="dashboard.html" method="POST">
+            <label for="fullname" style="letter-spacing: 2px">Full Name: </label>
+            <input type="text" id="fullname" name="fullname" placeholder="fullname" required>
+
+            <label for="email" style="letter-spacing: 2px">Email</label>
+            <input type="email" id="email" name="email" placeholder="email" required>
+
+            <label for="set" style="letter-spacing: 2px">Set Password</label>
+            <input type="password" id="set" name="set" placeholder="Enter password" required>
+
+            <label for="confirm" style="letter-spacing: 2px">Confirm Password</label>
+            <input type="password" id="confirm" name="confirm" placeholder="Re-enter Password" required>
+
+
+
+
+            <button type="button" onclick="window.location.href='LOGIN.html'">Create</button>
+        </form>
+    </div>
+</body>
+
+</html>
