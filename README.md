@@ -1,6 +1,6 @@
 # 🏥 Medical Record Tracker  
 
-## 📌 Overview  
+## 📌 Overview of the project  
 The **Medical Record Tracker** is a digital system designed to securely store and manage patient medical records. It provides quick access to patient history and reports, improving healthcare efficiency while reducing paperwork.  
 
 ## 🚀 Features  
